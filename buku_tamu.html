@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <title>Amelia Syamsuddin</title>
+</head>
+    <body class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-danger-subtle">
+                <div class="container px-0">
+                    <div class="navbar-brand fw-bold fs-1 text-dark">JTIK</div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link text-dark fw-bold" href="indeks.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link text-dark fw-bold" href="artikel.html">About Me</a></li>
+                            <li class="nav-item"><a class="nav-link text-dark fw-bold" href="pendidikan.html">Pendidikan</a></li>
+                            <li class="nav-item"><a class="nav-link text-dark fw-bold" href="jadwal kuliah.html">Jadwal Kuliah</a></li>
+                            <li class="nav-item"><a class="nav-link text-dark fw-bold" href="buku_tamu.html">Buku Tamu</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <section class="py-5">
+                <div class="container px-5">
+                    <div class="bg-light rounded-3 py-5 px-4 px-md-5 mb-5">
+                        <div class="text-center mb-5">
+                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-envelope"></i></div>
+                            <h1 class="fw-bolder">Form Buku Tamu</h1>
+                        </div>
+                        <div class="row gx-5 justify-content-center">
+                            <div class="col-lg-8 col-xl-6">
+                                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                                    <div class="mb-3">
+                                        <label for="exampleFormControlInput1" class="form-label">Nama Lengkap</label>
+                                        <input type="name" class="form-control" id="exampleFormControlInput1" data-sb-validations="required">
+                                      </div>
+                                    <div class="form-floating mb-3">
+                                        Jenis Kelamin : <br>
+                                        <input type="radio" name="jenis_kelamin" value="L" > Laki-laki<br>
+                                        <input type="radio" name="jenis_kelamin" value="P" > Perempuan<br>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleFormControlInput1" class="form-label">Alamat</label>
+                                        <input type="adress" class="form-control" id="exampleFormControlInput1" data-sb-validations="required">
+                                      </div>
+                                    <div class="mb-3">
+                                        <label for="exampleFormControlInput1" class="form-label">Email</label>
+                                        <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="amel@gmail.com" data-sb-validations="required">
+                                    </div>
+                                    <div class="mb-3">
+                                        Aktif pada social media :<br>
+                                        <input type="checkbox" name="facebook" value="Ya" >Facebook
+                                        <input type="checkbox" name="twitter" value="Ya" >Twitter
+                                        <input type="checkbox" name="instagram" value="Ya" >Instagram
+                                        <input type="checkbox" name="path" value="Ya" >Path<br><br>
+                                    </div>
+                                        <div class="form-floating mb-3">
+                                            <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                                            <option value="1">Web</option>
+                                            <option value="2">Surat Kabar</option>
+                                            <option value="3">Teman Kerabat</option>
+                                            <option value="4">Browsing Internet</option>
+                                            </select>
+                                            <label for="floatingSelect" class="form-label">Mengetahui web ini dari mana :</label>
+                                          </div>
+                                    <div class="form-floating mb-3">
+                                        <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
+                                        <label for="message">Pesan</label>
+                                        <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                                    </div>
+                                    </div>
+                                    <div class="d-grid"><input class="btn btn-primary btn-lg" type="submit" value="Kirim"></div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    <footer class="bg-dark py-4 mt-auto">
+        <div class="container px-5">
+            <div class="row align-items-center justify-content-center flex-column flex-sm-row">
+                <div class="col-auto"><div class="small m-0 text-white">Copyright 2023 &copy; Amelia Syamsuddin</div></div>
+            </div>
+        </div>
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+</html>
